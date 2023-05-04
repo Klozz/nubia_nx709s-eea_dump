@@ -1,0 +1,16 @@
+system_ext/apex/com.android.vndk.v30.apex
+system_ext/priv-app/Settings/Settings.apk
+recovery.img
+bootRE/boot.elf
+vendor/etc/dts/dts-eagle.lic
+modem.img
+system/system/etc/faceclassifier/faceclassifier.dlc
+system/system/app/nubia_DynamicWallpaper_679/nubia_DynamicWallpaper_679.apk
+system/system/app/NubiaFaceId/lib/arm64/libzteFaceRecognitionModels.so
+system/system/priv-app/NubiaGallery/NubiaGallery.apk
+system/system/priv-app/PhotoEditor/PhotoEditor.apk
+system/system/priv-app/Messages/Messages.apk
+system/system/priv-app/Camera/Camera.apk
+product/app/WebViewGoogle/WebViewGoogle.apk
+product/priv-app/Velvet/Velvet.apk
+product/priv-app/GmsCore/GmsCore.apk

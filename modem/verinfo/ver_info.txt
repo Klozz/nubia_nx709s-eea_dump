@@ -1,0 +1,25 @@
+{
+    "Image_Build_IDs": {
+        "adsp": "ADSP.HT.5.7-00955.12-WAIPIO-1", 
+        "aop": "AOP.HO.4.0-00388-WAIPIO_E-1", 
+        "boot": "BOOT.MXF.2.0-00825-WAIPIO-1.9281.13", 
+        "btfm": "BTFW.HSP.2.1.0-00394-PATCHZ-1", 
+        "cdsp": "CDSP.HT.2.7-00826.2-WAIPIO-1", 
+        "common": "Palima.LA.1.0.r1-00220-STD.PROD-1", 
+        "cpucp": "CPUCP.FW.1.0-00083-WAIPIO.EXT-2", 
+        "cpuss_vm": "CPUSS.CPUSYS.VM.1.0-00019-WAIPIO.EXT-1", 
+        "glue": "GLUE.PALIMA.LA.1.0-00068-NOOP_TEST_PALIMA-1", 
+        "modem": "MPSS.DE.1.0-02630-WAIPIO_GEN_PACK-1.9281.24", 
+        "slpi": "SLPI.HY.5.0-00186-WAIPIO-1", 
+        "spss": "SPSS.A1.1.6.1-00018-PALIMA-1", 
+        "tz": "TZ.XF.5.18-00201.1-SPF.WAIPIO-1", 
+        "tz_apps": "TZ.APPS.1.18-00220-SPF.WAIPIO-1", 
+        "wlan_hsp": "WLAN.HSP.2.0-01667-QCAHSPSWPL_V1_V2_SILICONZ-1.9281.5"
+    }, 
+    "Metabuild_Info": {
+        "Meta_Build_ID": "Palima.LA.1.0.r1-00220-STD.PROD-1", 
+        "Product_Flavor": "asic", 
+        "Time_Stamp": "2022-12-28 18:59:46"
+    }, 
+    "Version": "1.0"
+}
