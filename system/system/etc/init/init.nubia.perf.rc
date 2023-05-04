@@ -1,0 +1,7 @@
+#nubia add for performance
+#
+#Performance optimization extension centralized modification for easy to maintain and porting, reduce conflict and redundancy.
+#
+
+on property:nubia.perf.tencent.game.mode=1
+    chmod 0666 /storage/emulated/0/Android/data/${nubia.perf.tencent.game.pkg}/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserCustom.ini
