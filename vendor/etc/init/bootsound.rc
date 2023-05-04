@@ -1,0 +1,20 @@
+service bootsound /vendor/bin/sh /vendor/bin/bootsound.sh
+    user root
+    disabled
+    oneshot
+    group root system
+	seclabel u:r:vendor_qti_init_shell:s0
+
+#on property:vendor.audio.bootsound=1
+#   start bootsound    
+# BOOTSOUND START
+#on property:sys.zte.boot.sound.completed=1
+#    start audio-hal-2-0
+#    start audioserver
+
+#on property:sys.nubia.power.sound=reset
+#   rm /persist/bootsoundproperty/persistsyspowersound
+on post-fs-data
+	chmod 0664 /vendor/etc/bootup.wav
+	chmod 0755 /vendor/bin/bootsound.sh
+# BOOTSOUND END

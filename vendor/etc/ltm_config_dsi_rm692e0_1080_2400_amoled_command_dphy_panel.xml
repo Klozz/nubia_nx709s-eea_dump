@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+ * Copyright (c) 2021 Qualcomm Technologies, Inc.
+ * All Rights Reserved.
+ * Confidential and Proprietary - Qualcomm Technologies, Inc.
+--><Group id="LTMConfig">
+    <!-- version should be maintained -->
+    <version>"1.0"</version>
+
+    <default>
+        <feature_visibility>
+            <TemporalFilterSpeedStepSizeOne>8</TemporalFilterSpeedStepSizeOne>
+            <TemporalControlTableInput>0 30 50 128 160 256</TemporalControlTableInput>
+            <TemporalControlTableOutput>1 2 4 4 4 4</TemporalControlTableOutput>
+
+            <AmbientLightToContrastStrengthTableInput>0 100 1000 10000 100000</AmbientLightToContrastStrengthTableInput>
+            <AmbientLightToContrastStrengthTableOutput>0 32 128 256 256</AmbientLightToContrastStrengthTableOutput>
+            <AmbientLightToContrastStrengthEnable>1</AmbientLightToContrastStrengthEnable>
+
+            <BacklightReductionTableInput>41 2032 2032 2032 4095</BacklightReductionTableInput>
+            <BacklightReductionTableOutput>41 2032 2032 2032 4095</BacklightReductionTableOutput>
+            <BacklightReductionEnable>1</BacklightReductionEnable>
+
+            <BacklightToContrastStrengthTableInput>0 1024 2048 3072 4095</BacklightToContrastStrengthTableInput>
+            <BacklightToContrastStrengthTableOutput>256 256 256 256 256</BacklightToContrastStrengthTableOutput>
+            <BacklightToContrastStrengthEnable>1</BacklightToContrastStrengthEnable>
+
+            <LuxStartPoint>0</LuxStartPoint>
+
+            <param001>256</param001>
+            <param002>128</param002>
+            <param003>5</param003>
+            <param004>60</param004>
+            <param005>1.2</param005>
+            <param006>50</param006>
+            <param007>8</param007>
+        </feature_visibility>
+        <feature_dre>
+            <TemporalFilterSpeedStepSizeOne>8</TemporalFilterSpeedStepSizeOne>
+            <TemporalFilterSpeedTableInput>0 30 50 128 160 256</TemporalFilterSpeedTableInput>
+            <TemporalFilterSpeedTableOutput>1 2 4 4 4 4</TemporalFilterSpeedTableOutput>
+
+            <AlsToBoostStrengthTableInput>50 500 700</AlsToBoostStrengthTableInput>
+            <AlsToBoostStrengthTableOutput>0 0 0</AlsToBoostStrengthTableOutput>
+
+            <SatGain>0</SatGain>
+
+            <LuxEndPoint>0</LuxEndPoint>
+
+            <param001>256</param001>
+            <param002>128</param002>
+            <param003>5</param003>
+            <param004>60</param004>
+            <param005>1.2</param005>
+            <param006>50</param006>
+        </feature_dre>
+    </default>
+    <mode id="game">
+        <feature_visibility>
+            <TemporalFilterSpeedStepSizeOne>8</TemporalFilterSpeedStepSizeOne>
+            <TemporalControlTableInput>0 30 50 128 160 256</TemporalControlTableInput>
+            <TemporalControlTableOutput>1 2 4 4 4 4</TemporalControlTableOutput>
+
+            <BacklightReductionTableInput>2400 3112 3200 4080 4095</BacklightReductionTableInput>
+            <BacklightReductionTableOutput>2400 3112 3200 4080 4095</BacklightReductionTableOutput>
+            <BacklightReductionEnable>1</BacklightReductionEnable>
+
+            <AmbientLightToContrastStrengthTableInput>1000 20000</AmbientLightToContrastStrengthTableInput>
+            <AmbientLightToContrastStrengthTableOutput>110 256</AmbientLightToContrastStrengthTableOutput>
+            <AmbientLightToContrastStrengthEnable>1</AmbientLightToContrastStrengthEnable>
+
+            <BacklightToContrastStrengthTableInput>0 1024 2048 3072 4095</BacklightToContrastStrengthTableInput>
+            <BacklightToContrastStrengthTableOutput>256 256 256 256 256</BacklightToContrastStrengthTableOutput>
+            <BacklightToContrastStrengthEnable>1</BacklightToContrastStrengthEnable>
+
+            <LuxStartPoint>1000</LuxStartPoint>
+
+            <param001>256</param001>
+            <param002>128</param002>
+            <param003>5</param003>
+            <param004>60</param004>
+            <param005>1.2</param005>
+            <param006>50</param006>
+            <param007>8</param007>
+        </feature_visibility>
+        <feature_dre>
+            <TemporalFilterSpeedStepSizeOne>8</TemporalFilterSpeedStepSizeOne>
+            <TemporalFilterSpeedTableInput>0 30 50 128 160 256</TemporalFilterSpeedTableInput>
+            <TemporalFilterSpeedTableOutput>1 2 4 4 4 4</TemporalFilterSpeedTableOutput>
+
+            <AlsToBoostStrengthTableInput>50 500 700</AlsToBoostStrengthTableInput>
+            <AlsToBoostStrengthTableOutput>90 70 60</AlsToBoostStrengthTableOutput>
+
+            <SatGain>1</SatGain>
+
+            <LuxEndPoint>999</LuxEndPoint>
+
+            <param001>256</param001>
+            <param002>128</param002>
+            <param003>5</param003>
+            <param004>60</param004>
+            <param005>1.2</param005>
+            <param006>50</param006>
+        </feature_dre>
+    </mode>
+</Group>

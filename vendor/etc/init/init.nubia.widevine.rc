@@ -1,0 +1,20 @@
+#nubia add for widevine
+service storekeybox /vendor/bin/StoreKeybox /persist/widevine_keybox
+    class main
+    disabled
+    user system
+    group system 
+    oneshot
+on property:vendor.nubia.widevine.storekeybox=1
+    chmod 0777 /persist/data
+    start storekeybox
+
+service oemcryptotest /vendor/bin/oemcryptotest --gtest_filter OEMCryptoAndroidLMPTest.Level1Required --gtest_output json:/persist/nubia_test_detail.json
+    class main
+    disabled
+    user system
+    group system 
+    oneshot
+
+on property:vendor.sys.checkwidevine=startcheck
+    start oemcryptotest

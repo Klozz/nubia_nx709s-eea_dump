@@ -1,0 +1,16 @@
+systemLogEnable=TRUE
+#enable3ADebugData=TRUE
+#enableTuningMetadata=TRUE
+FDFilterEngine=FD_DL_ARM
+FDClient=FDHWHybrid
+raiserecoverysigabrt=FALSE
+disablePDLibLCR=TRUE
+enableSensorRemosaic=TRUE
+multiCameraHWSyncMask=0x01
+AECGainThresholdForQCFA=2.0
+logInfoMask = 0x0
+#logVerboseMask = 0x20
+overrideLogLevels=0x0
+#enableSensorRemosaic=1
+halBufferMgrMode = 0
+enableDMEbasedMCTF=1

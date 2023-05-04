@@ -1,0 +1,2 @@
+on property:sys.brightness.hbm.mode=*
+	setprop vendor.brightness.hbm.mode ${sys.brightness.hbm.mode}
